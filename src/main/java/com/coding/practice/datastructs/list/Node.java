@@ -1,4 +1,4 @@
-package com.coding.practice.datastructs.lists;
+package com.coding.practice.datastructs.list;
 
 public class Node<T> {
 

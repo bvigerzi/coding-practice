@@ -1,4 +1,4 @@
-package com.coding.practice.datastructs.arrays;
+package com.coding.practice.datastructs.array;
 
 import java.util.HashSet;
 

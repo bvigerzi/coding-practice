@@ -1,6 +1,5 @@
 package com.coding.practice.datastructs.array;
 
-import com.coding.practice.datastructs.arrays.AllUnique;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;

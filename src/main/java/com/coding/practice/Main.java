@@ -1,6 +1,6 @@
 package com.coding.practice;
 
-import com.coding.practice.datastructs.arrays.AllUnique;
+import com.coding.practice.datastructs.array.AllUnique;
 
 public class Main {
 
