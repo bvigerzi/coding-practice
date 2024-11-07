@@ -9,13 +9,13 @@ public class QueueTwoStacks {
     Deque<Integer> bufferRearrange = new ArrayDeque<>();
 
     public int pop() {
-        if(currentQueueState.size() == 0) {
+        if(currentQueueState.isEmpty()) {
             throw new RuntimeException();
         }
         currentQueueState.forEach(i -> bufferRearrange.push(i));
         int firstElement = bufferRearrange.pop();
         currentQueueState = new ArrayDeque<>();
-        while(bufferRearrange.size() != 0) {
+        while(!bufferRearrange.isEmpty()) {
             currentQueueState.push(bufferRearrange.pop());
         }
         return firstElement;
